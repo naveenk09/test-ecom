@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_location_locations",
+  "info": {
+    "displayName": "location",
+    "icon": "golf-ball"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

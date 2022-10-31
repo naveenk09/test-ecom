@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_payments",
+  "info": {
+    "singularName": "user-payment",
+    "pluralName": "user-payments",
+    "displayName": "user payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_type": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "account_no": {
+      "type": "biginteger"
+    },
+    "expiry": {
+      "type": "date"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
