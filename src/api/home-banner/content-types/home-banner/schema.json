@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banners",
+  "info": {
+    "singularName": "home-banner",
+    "pluralName": "home-banners",
+    "displayName": "Home Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.slider"
+    }
+  }
+}
