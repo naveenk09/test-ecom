@@ -42,12 +42,6 @@
     "price": {
       "type": "decimal"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "mappedBy": "category"
-    },
     "quantity": {
       "type": "decimal"
     },
@@ -58,6 +52,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
     }
   }
 }

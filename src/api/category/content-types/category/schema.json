@@ -21,17 +21,6 @@
       "type": "uid",
       "targetField": "name",
       "required": true
-    },
-    "products": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::product.product",
-      "inversedBy": "categories"
     }
   }
 }
