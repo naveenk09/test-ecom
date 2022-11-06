@@ -33,19 +33,10 @@
     "content": {
       "type": "richtext"
     },
-    "meta_description": {
-      "type": "text"
-    },
-    "meta_title": {
-      "type": "text"
-    },
     "price": {
       "type": "decimal"
     },
     "quantity": {
-      "type": "decimal"
-    },
-    "discount": {
       "type": "decimal"
     },
     "seo": {
