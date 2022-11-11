@@ -24,6 +24,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.navbar"
+    },
+    "Icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icons.header-icon"
     }
   }
 }
