@@ -1,7 +1,8 @@
 {
   "collectionName": "components_icons_header_icons",
   "info": {
-    "displayName": "HeaderIcon"
+    "displayName": "HeaderIcon",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,12 +11,12 @@
       "required": true
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     }
   }
 }
